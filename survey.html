@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Coffee Survey</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header><h1>All about coffee</h1>
+	<nav>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="roasting.html">Roasting</a></li>
+	<li><a href="grinding.html">Grinding</a></li>
+	<li><a href="brewing.html">Brewing</a></li>
+	<li><a href="survey.html">Coffee Survey</a></li>
+	</ul>
+	</nav>
+	</header>
+<h1>Coffee Survey</h1>
+<form action="coffee-survey.php" method="post"></br>
+<fieldset>
+<legend>Personal data</legend>
+Your name
+<input type="text" name="name" required/></br>
+Email adress
+<input type="email" name="email" required placeholder="Please enter valid email adress"/></br>
+</fieldset>
+<fieldset><legend>Coffee preferences</legend>
+Tell us about your coffee preparation methods</br>
+<textarea name="preparation" cols="40" rows="10"></textarea></br>
+Do you grind your own beans?</br>
+<input type="radio" name="grind" value="yes"/>yes</br>
+<input type="radio" name="grind" value="no"/>no</br>
+
+How do you drink your coffee?</br>
+<input type="checkbox" name="drink" value="sugar"/>with sugar</br>
+<input type="checkbox" name="drink" value="cream"/>with cream</br>
+
+What is your favourite coffee drink?
+<select name=favorite"></br>
+<option value="">Please select a drink</option>
+<option value="drip">drip coffee</option>
+<option value="french">french press</option>
+<option value="esp">espresso</option>
+<option value="lATTE">latte</option>
+<option value="flavored">flavored</option>
+</select></br>
+<input type="submit" value="Send"/>
+</fieldset>
+
+</form>
+
+<footer>
+	<nav>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="roasting.html">Roasting</a></li>
+	<li><a href="grinding.html">Grinding</a></li>
+	<li><a href="brewing.html">Brewing</a></li>
+	<li><a href="survey.html">Coffee Survey</a></li>
+	</ul>
+	</nav>
+	</footer>
+</body>
+</html>
